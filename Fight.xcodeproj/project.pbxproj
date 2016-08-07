@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C32040071D57C05700AF765C /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32040061D57C05700AF765C /* Character.swift */; };
+		C32040091D57C4B300AF765C /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32040081D57C4B300AF765C /* Player.swift */; };
+		C320400B1D57C81000AF765C /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C320400A1D57C81000AF765C /* Enemy.swift */; };
+		C320400D1D57CAC800AF765C /* Kimara.swift in Sources */ = {isa = PBXBuildFile; fileRef = C320400C1D57CAC800AF765C /* Kimara.swift */; };
+		C320400F1D57CC9500AF765C /* DevilWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C320400E1D57CC9500AF765C /* DevilWizard.swift */; };
 		C39807BE1D579F2D00B280AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39807BD1D579F2D00B280AF /* AppDelegate.swift */; };
 		C39807C01D579F2D00B280AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39807BF1D579F2D00B280AF /* ViewController.swift */; };
 		C39807C31D579F2D00B280AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39807C11D579F2D00B280AF /* Main.storyboard */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C32040061D57C05700AF765C /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		C32040081D57C4B300AF765C /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		C320400A1D57C81000AF765C /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		C320400C1D57CAC800AF765C /* Kimara.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kimara.swift; sourceTree = "<group>"; };
+		C320400E1D57CC9500AF765C /* DevilWizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevilWizard.swift; sourceTree = "<group>"; };
 		C39807BA1D579F2D00B280AF /* Fight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C39807BD1D579F2D00B280AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C39807BF1D579F2D00B280AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +70,11 @@
 				C39807C41D579F2D00B280AF /* Assets.xcassets */,
 				C39807C61D579F2D00B280AF /* LaunchScreen.storyboard */,
 				C39807C91D579F2D00B280AF /* Info.plist */,
+				C32040061D57C05700AF765C /* Character.swift */,
+				C32040081D57C4B300AF765C /* Player.swift */,
+				C320400A1D57C81000AF765C /* Enemy.swift */,
+				C320400C1D57CAC800AF765C /* Kimara.swift */,
+				C320400E1D57CC9500AF765C /* DevilWizard.swift */,
 			);
 			path = Fight;
 			sourceTree = "<group>";
@@ -135,6 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C32040091D57C4B300AF765C /* Player.swift in Sources */,
+				C320400B1D57C81000AF765C /* Enemy.swift in Sources */,
+				C320400F1D57CC9500AF765C /* DevilWizard.swift in Sources */,
+				C320400D1D57CAC800AF765C /* Kimara.swift in Sources */,
+				C32040071D57C05700AF765C /* Character.swift in Sources */,
 				C39807C01D579F2D00B280AF /* ViewController.swift in Sources */,
 				C39807BE1D579F2D00B280AF /* AppDelegate.swift in Sources */,
 			);
@@ -255,6 +275,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.TonyMerritt.Fight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -266,6 +287,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.TonyMerritt.Fight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -288,6 +310,7 @@
 				C39807CE1D579F2D00B280AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
