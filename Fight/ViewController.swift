@@ -36,7 +36,7 @@ class ViewController: UIViewController {
         
     generateRandomEnemy()
         
-        
+    printLabel.text = "Press attack swords to attack"
     playerHpLabel.text = "\(player.hp) HP"
         
     }
@@ -53,6 +53,7 @@ class ViewController: UIViewController {
         enemyImage.hidden = false
         attackButton.hidden = false
         enemyHpLabel.text = "\(enemy.hp) Hp"
+        printLabel.text = "Press attack swords to attack"
     }
     
     @IBAction func onChestTapped(sender: AnyObject) {
